@@ -13,6 +13,8 @@
 		E56657FA251148C3004C666F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E56657F9251148C3004C666F /* Assets.xcassets */; };
 		E56657FD251148C4004C666F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E56657FC251148C4004C666F /* Preview Assets.xcassets */; };
 		E5665800251148C4004C666F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E56657FE251148C4004C666F /* LaunchScreen.storyboard */; };
+		E566580825158D0F004C666F /* ThingsAboutMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E566580725158D0E004C666F /* ThingsAboutMe.swift */; };
+		E566580A25190A17004C666F /* PassionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E566580925190A17004C666F /* PassionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E56657FC251148C4004C666F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E56657FF251148C4004C666F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5665801251148C4004C666F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E566580725158D0E004C666F /* ThingsAboutMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingsAboutMe.swift; sourceTree = "<group>"; };
+		E566580925190A17004C666F /* PassionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				E56657F3251148C0004C666F /* AppDelegate.swift */,
 				E56657F5251148C0004C666F /* SceneDelegate.swift */,
 				E56657F7251148C0004C666F /* ContentView.swift */,
+				E566580725158D0E004C666F /* ThingsAboutMe.swift */,
 				E56657F9251148C3004C666F /* Assets.xcassets */,
 				E56657FE251148C4004C666F /* LaunchScreen.storyboard */,
 				E5665801251148C4004C666F /* Info.plist */,
 				E56657FB251148C4004C666F /* Preview Content */,
+				E566580925190A17004C666F /* PassionView.swift */,
 			);
 			path = Favouritethings;
 			sourceTree = "<group>";
@@ -146,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E566580A25190A17004C666F /* PassionView.swift in Sources */,
+				E566580825158D0F004C666F /* ThingsAboutMe.swift in Sources */,
 				E56657F4251148C0004C666F /* AppDelegate.swift in Sources */,
 				E56657F6251148C0004C666F /* SceneDelegate.swift in Sources */,
 				E56657F8251148C0004C666F /* ContentView.swift in Sources */,
@@ -289,6 +297,7 @@
 				DEVELOPMENT_TEAM = 8HX6NU4SU5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Favouritethings/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +318,7 @@
 				DEVELOPMENT_TEAM = 8HX6NU4SU5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Favouritethings/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
